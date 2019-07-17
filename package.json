@@ -1,0 +1,33 @@
+{
+  "name": "fastify-busboy-rx",
+  "version": "1.0.0",
+  "keywords": [
+    "fastify",
+    "plugin",
+    "busboy",
+    "rx"
+  ],
+  "author": "toanzzz",
+  "description": "Fastify Busboy Plugin (RX version)",
+  "homepage": "https://github.com/nerd-coder/fastify-busboy-rx",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nerd-coder/fastify-busboy-rx.git"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "typings": "src/index.d.ts",
+  "dependencies": {
+    "busboy": "^0.3.1",
+    "fastify-plugin": "^1.6.0",
+    "rxjs": "^6.5.2"
+  },
+  "devDependencies": {
+    "fastify": "^2.5.0",
+    "tap": "^14.2.2"
+  },
+  "scripts": {
+    "test": "tap",
+    "release": "release-it"
+  }
+}
