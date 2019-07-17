@@ -24,7 +24,8 @@
   },
   "devDependencies": {
     "fastify": "^2.5.0",
-    "tap": "^14.2.2"
+    "tap": "^14.2.2",
+    "release-it": "*"
   },
   "scripts": {
     "test": "tap",
