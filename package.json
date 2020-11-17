@@ -19,16 +19,16 @@
   "typings": "src/index.d.ts",
   "dependencies": {
     "busboy": "^0.3.1",
-    "fastify-plugin": "^1.6.0",
+    "fastify-plugin": "^3.0.0",
     "rxjs": "^6.5.2"
   },
   "devDependencies": {
-    "fastify": "^2.11.0",
+    "fastify": "^3.8.0",
     "release-it": "*",
     "tap": "^14.10.5"
   },
   "scripts": {
     "test": "tap",
-    "release": "release-it"
+    "release": "release-it patch --ci"
   }
 }
